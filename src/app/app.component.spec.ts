@@ -13,15 +13,15 @@ describe('AppComponent', () => {
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   }));
-  it(`should have as title 'cc-digitalissuance-ui'`, async(() => {
+  it(`should have as title 'Credit Card Digital Issuance'`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('cc-digitalissuance-ui');
+    expect(app.title).toEqual('Credit Card Digital Issuance');
   }));
   it('should render title in a h1 tag', async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to cc-digitalissuance-ui!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to Credit Card Digital Issuance!');
   }));
 });
